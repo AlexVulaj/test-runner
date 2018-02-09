@@ -1,19 +1,15 @@
 // Name of class to test
-className = "Solution"
+className = ""
 // Name of method to run
-methodName = "sum"
+methodName = ""
 // Names for each test, optional
 testNames = []
 // Input params for each test
-inputs = [
-        [1, 2, 2, 1],
-        [1, 1],
-        [1, 2, 3, 4, 5]
-]
+inputs = []
 // Expected results for each test
-expected = [6, 2, 15]
+expected = []
 // Outputs individual test results if enabled
-verbose = true
+verbose = false
 
 /*********************\
 |* End Configuration *|

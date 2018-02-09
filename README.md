@@ -32,8 +32,8 @@ and given the method `public int foo(String str, int n);`, a list of inputs may 
 ```
 inputs = [
         ["Foo", 3],
-		["Bar", 2],
-		["Apple", 6]
+        ["Bar", 2],
+        ["Apple", 6]
 ]
 ```
 #### expected

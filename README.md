@@ -1,2 +1,2 @@
 # test-runner
-A quick, configurable Groovy script for testing 
+A quick, configurable Groovy script for testing

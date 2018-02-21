@@ -7,7 +7,7 @@ testNames = []
 // Input params for each test
 inputs = []
 // Expected results for each test
-expected = []
+expected = [4]
 // Outputs individual test results if enabled
 verbose = false
 
@@ -25,10 +25,7 @@ inputs.eachWithIndex { input, testNumber ->
 
     testName = "${testNames[testNumber] ?: "Test $testNumber"}"
     if (!success) failures << testName
-    if (verbose) println """$testName
-result: ${success ? "Success" : "Failure - expected <${expected[testNumber]}> but was <$result>"}
-time: ${(end - start) / 1E9} seconds
-"""
+    if (verbose) println "$testName\nresult: ${success ? "Success" : "Failure - expected <${expected[testNumber]}> but was <$result>"}\ntime: ${(end - start) / 1E9} seconds\n"
 }
 
 println "${failures.isEmpty() ? "All tests passed" : "The following tests failed:\n${failures.join("\n")}"}\nScript took ${(System.nanoTime() - scriptStart) / 1000000000.0} seconds."

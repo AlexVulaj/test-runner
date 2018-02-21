@@ -2,6 +2,8 @@
 A quick, configurable Groovy script for testing.
 
 This script allows for quick testing and debugging of various Java puzzles and algorithms.  Works well for quick testing of different scenarios on sites like Codility, Project Euler, and others.
+## Usage
+To use the script simply copy src/TestRunner.groovy and place it into your local project. After following the configuration options below, you can run it as you would any other Groovy script.
 ## Properties
 At the top of the runner, you'll notice a few properties.
 #### className
